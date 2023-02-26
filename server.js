@@ -6,10 +6,10 @@ const cors = require("cors");
 app.use(cors());
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "Face",
+  host: "sql12.freemysqlhosting.net",
+  user: "sql12601165",
+  password: "g6RkgQX775",
+  database: "sql12601165",
 });
 
 // Connect to the MySQL server
